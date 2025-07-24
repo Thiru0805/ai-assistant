@@ -1,0 +1,39 @@
+# 🚀 AI-Assistant – AI-Powered Calendar Assistant
+
+AI-Assistant is an intelligent assistant built using **Next.js**, **OpenRouter LLM**, and **Google Calendar integration via OAuth**.  
+It can talk like ChatGPT, and also fetch your calendar events (for today, tomorrow, or any date) automatically.
+
+---
+
+## ✨ Features
+
+- ✅ Google OAuth 2.0 login
+- ✅ Secure access to your calendar events
+- ✅ Natural language prompts like:
+  - "What’s on my calendar today?"
+  - "Do I have anything scheduled tomorrow?"
+  - "Any meetings on 28th July?"
+- ✅ Chat-based interface with AI responses
+
+---
+
+## 🧠 Tech Stack
+
+- **Next.js** (App Router)
+- **OpenRouter LLM (GPT-3.5/4)** – for assistant intelligence
+- **Google OAuth + Calendar API** – for 3rd party integration
+- **Vercel AI SDK** – for chat streaming
+- **NextAuth.js** – for authentication
+- **chrono-node** – for parsing natural date queries
+
+---
+
+## 🖥️ Local Setup
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-scheduly.git
+cd ai-assistant
+npm i
+npm run dev
