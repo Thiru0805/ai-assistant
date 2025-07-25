@@ -9,9 +9,7 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./*"]
     },
     "types": ["next-auth"],
     "lib": [
